@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ndoras/ndora/main/doc/logo/logo-white.svg" width="155"/>
+  <img src="https://raw.githubusercontent.com/ndoras/ndora/main/doc/logo/logo-black.png" width="155"/>
 </div>
 <div align="center">
   <h1 align="center">NDORA</h1>
