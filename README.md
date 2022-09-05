@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ndoras/ndora/main/doc/logo/logon-n.png" width="155"/>
+  <img src="https://raw.githubusercontent.com/ndoras/ndora/main/doc/logo/logo-black.png" width="300"/>
 </div>
+<hr />
 <div align="center">
   <h1 align="center">NDORA</h1>
   <p align="center">Notify, Deploy Once, Run Anywhere. 一次部署，到处运行的聚合通知。</p>
