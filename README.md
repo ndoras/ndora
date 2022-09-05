@@ -26,10 +26,10 @@
 ```shell
 docker run -d \
   --name ndora \
-  -v /root/vertex:/vertex \
+  -v /root/ndora:/ndora\
   -p 8081:8081 \
   -e TZ=Asia/Shanghai \
-  lswl/vertex:stable
+  ndoras/ndora:stable
 ```
 
 ## 功能预览
