@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/ndoras/ndora/main/doc/logo/logo-black.png" width="300"/>
 </div>
 <div align="center">
-  <p align="center">Notify, Deploy Once, Run Anywhere. 一次部署，到处运行的聚合通知。</p>
+  <h2 align="center">Notify, Deploy Once, Run Anywhere. 一次部署，到处运行的聚合通知。</h2>
   <p align="center">
     <a href="https://github.com/ndoras/ndora"><img src="https://img.shields.io/github/stars/ndoras/ndora" /></a>
     <a href="https://github.com/ndoras/ndora"><img src="https://img.shields.io/github/license/ndoras/ndora"></a>
