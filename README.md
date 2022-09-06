@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="ndora" height="64" src="./doc/logo.svg">
+  <img alt="ndora" height="64" src="./doc/logo/logo.svg">
 </div>
 <div align="center">
   <h2 align="center">Notify, Deploy Once, Run Anywhere. 一次部署，到处运行的聚合通知。</h2>
