@@ -1,0 +1,5 @@
+.git
+.github
+.husky
+node_modules
+doc
