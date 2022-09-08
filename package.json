@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --require ts-node/register --watch --watch-files src src/**/*.test.ts",
+    "start": "ts-node src/index.ts",
     "dev:comment": "启动开发环境",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "eslint:comment": "使用 ESLint 检查并自动修复 src 目录下所有扩展名为 .ts 的文件",
@@ -35,12 +36,13 @@
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@types/koa": "^2.13.5",
+    "@types/koa__router": "^8.0.11",
     "@types/koa-bodyparser": "^4.3.7",
     "@types/koa-json": "^2.0.20",
     "@types/koa-logger": "^3.1.2",
     "@types/koa-session": "^5.10.6",
     "@types/koa-static": "^4.0.2",
-    "@types/koa__router": "^8.0.11",
+    "@types/lodash": "^4.14.184",
     "@types/node": "^18.7.14",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
@@ -60,7 +62,9 @@
     "koa-bodyparser": "^4.3.0",
     "koa-json": "^2.0.2",
     "koa-logger": "^2.0.1",
-    "koa-static": "^5.0.0"
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.21",
+    "yaml": "^2.1.1"
   },
   "config": {
     "commitizen": {

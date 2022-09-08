@@ -1,0 +1,29 @@
+id: bark
+name: Bark
+
+# 参数映射
+param_map:
+  title: title
+  content: description
+  img: picurl
+
+# 请求参数
+request_param:
+  -
+    key: url
+    name: '推送API地址'
+
+notify:
+  url: '<%= url %>'
+  method: get
+  params:
+    key: <%= key %>
+    title: <%= title %>
+    content: <%= content %>
+clean:
+  title:
+    pick_type: url
+    pick_param: '/:token/:title'  
+  content:
+    pick_type: url
+    pick_param: '/:token/:title/:content'

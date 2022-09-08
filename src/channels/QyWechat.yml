@@ -1,0 +1,56 @@
+id: qywechat
+name: 企业微信
+
+# 参数映射
+param_map:
+  title: title
+  content: description
+  img: picurl
+
+# 请求参数
+request_param:
+  -
+    key: server_url
+    name: '推送API地址'
+  - 
+    key: touser
+    name: 'touser'
+    info: '指定接收消息的成员，成员ID列表（多个接收者用‘|’分隔，最多支持1000个）。特殊情况：指定为"@all"，则向该企业应用的全部成员发送'
+  - 
+    key: corpid
+    name: '企业微信CorpID'
+  - 
+    key: corpsecret
+    name: '企业微信corpsecret'
+  -
+    key: agenid
+    name: 'agenid'
+    info: '企业应用的id，整型。企业内部开发，可在应用的设置页面查看；'
+
+# 消息发送
+notify:
+  url: '<%= url %>'
+  method: post
+  params:
+    touser: <%= touser %>
+    agentid: <%= agentid %>
+    msgtype: 'news'
+    news: 
+      articles:
+        -
+          title: <%= title %>
+          description:  <%= description %>
+          url: <%= url %>
+          picurl: <%= picurl %> 
+    content: <%= content %>
+# 数据清洗
+clean:
+  title:
+    pick_type: body
+    pick_param: 'news.articles[0].title'  
+  content:
+    pick_type: body
+    pick_param: 'news.articles[0].description'
+  img:
+    pick_type: body
+    pick_param: 'news.articles[0].picurl'
