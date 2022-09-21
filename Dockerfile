@@ -31,7 +31,8 @@
 
     RUN yarn run build
     # 将当前目录下的所有文件（除了.dockerignore排除的路径），都拷贝进入镜像的工作目录下
-    COPY dist .
+    RUN ls
+    COPY ./dist .
 
     # 启动
     CMD yarn start
