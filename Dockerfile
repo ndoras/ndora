@@ -9,7 +9,7 @@
 
     # 设置环境变量
     ENV NODE_ENV=production \
-        APP_PATH=/node/app
+        APP_PATH=/app
     
     # 设置工作目录
     WORKDIR $APP_PATH
